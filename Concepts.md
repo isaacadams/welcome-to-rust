@@ -133,14 +133,6 @@ These are some of the tools that you can use to measure the performance of your 
 
 **Why would I choose an owned variable rather than a referenced variable?**
 
-There are a few reasons why you might want to take ownership of a variable in the Rust programming language:
-
-1. When you take ownership of a variable, you are responsible for managing its memory. This means that you can control when the variable is allocated and freed, and you can ensure that it is used in a safe and efficient way. This can be useful when you want to optimize the performance of your code or when you need to manage resources in a specific way.
-2. When you take ownership of a variable, you can move it to another part of your code. This can be useful when you want to pass a variable to a function or when you want to return a variable from a function. Moving a variable allows you to transfer its ownership to another part of your code, so that the variable can be used in a different context.
-3. When you take ownership of a variable, you can modify it in place. This can be useful when you want to update a variable's value or when you want to modify the data that the variable points to. Taking ownership of a variable allows you to mutate it directly, without having to create a new variable or copy its data.
-
-Overall, there are a few reasons why you might want to take ownership of a variable in Rust. It is worth considering the trade-offs and deciding when it is appropriate to take ownership of a variable in your code.
-
 **Why would I define different lifetimes than the same one?**
 
 **Why would I choose to make a string constant rather than instantiate it during runtime?**
