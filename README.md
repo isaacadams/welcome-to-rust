@@ -33,6 +33,7 @@ a guideline to getting started with rust
 
 - cargo-expand
 - cargo-watch
+- watchexec: https://github.com/watchexec/watchexec#readme
 
 ## [Macros](./Macros.md)
 
