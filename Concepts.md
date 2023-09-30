@@ -126,9 +126,8 @@ These are some of the tools that you can use to measure the performance of your 
 
 ## Strings
 
-Still trying to wrap my head around strings… here is a good place to begin
-
-[Rust #8: Strings](https://dev.to/cthutu/rust-8-strings-53o)
+- [the various string types explained](https://dev.to/cthutu/rust-8-strings-53o)
+- [text processing](https://www.linuxjournal.com/content/text-processing-rust)
 
 ## Questions
 
