@@ -35,6 +35,12 @@ a guideline to getting started with rust
 - cargo-watch
 - watchexec: https://github.com/watchexec/watchexec#readme
 
+## CLI Development
+
+- [helpful starting guide](https://rust-cli.github.io/book/index.html)
+- clap
+- https://crates.io/crates/indicatif
+
 ## [Macros](./Macros.md)
 
 1. [Procedural Macros](./Macros.md#procedural-macros)
