@@ -229,16 +229,6 @@ This section answers the question: How do I ser/de(ser)-ialize (serde) things li
 | [`csv`](https://crates.io/crates/csv)               | csv             |
 | [`serde_yaml`](https://crates.io/crates/serde_yaml) | yaml            |
 
-## Intro (for JS devs): where the HELL is `JSON.parse()`?
-
-It is generally true that most people are familiar with javascript based languages and, as a result, are spoiled, especially when it comes to parsing JSON.
-
-Yeah, parsing (`deserializing`) and stringifying (`serializing`) JSON is super easy in JS/TS. _Just_ use `JSON.parse(...)` or `JSON.stringify(...)`. It is that simple in javascript land. This is not the case in other languages because unlike javascript, other languages care about things like (real) types and performance.
-
-My programming career began in the .NET world, which, its been a few years, but last I checked, `Newtonsoft.Json` was the most popular nuget package for handling json serialization and deserialization. Coming from that background, it was not surprising to me that rust did not have something as simple as `JSON.parse/stringify`. In fact, when I began learning javascript, I was shocked to discover that JSON parsing was so... simple.
-
-All of that to say, if you are coming from a javascript background and that is the only language you have ever used, avoid being one of those crybaby developers who compare everything to the only language they have ever known.
-
 ## `serde`: ser/de(ser)-ialization in rust
 
 Similar to `log`, `serde` is merely an abstraction api that empowers downstream implementations (`serde_json`, `toml`, etc.) to use a common trait or interface system for a high degree of interoperability.
