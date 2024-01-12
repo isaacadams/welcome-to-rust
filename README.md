@@ -38,7 +38,7 @@ Rust does not have a standard async runtime. The most popular is tokio.
 
 ## Database Development & SQLx
 
-Interacting with databases is a fundamental aspect of backend development, but it can also be complex. Frameworks like ORMs were introduced to help reduce the complexity for developers unfamiliar with databases, especially relational databases. However, these ORMs often introduce and can even encourage inefficiency while also creating new opportunities for complexity.
+Database interaction is a fundamental and complex aspect of backend development. ORM frameworks were introduced to help reduce the complexity for developers unfamiliar with databases, especially relational databases. However, these ORMs often introduce and can even encourage inefficiency while also creating new opportunities for complexity.
 
 SQLx was created to remove the manufactured layer between the database and the application crated by ORMs. Using a tool like SQLx does, generally speaking, required more knowledge of relational databases and the query language (SQL) itself. However, the payoff is enormous.
 
