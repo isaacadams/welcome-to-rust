@@ -50,7 +50,7 @@ SQLx was created to remove this manufactured layer. Using a tool like SQLx does,
 
 ## Tools
 
-- just
+- [just](https://github.com/casey/just)
 - cargo-expand
 - cargo-watch
 - watchexec: https://github.com/watchexec/watchexec#readme
