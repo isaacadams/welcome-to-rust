@@ -35,7 +35,7 @@ Rust does not have a standard async runtime. The most popular is tokio.
 
 ### Multi-threading and Concurrency
 
-- primers on [multi-threading] in rust
+- primers on `multi-threading` in rust
     - [primer #1](https://archive.is/BBoEq)
     - [primer #2](https://archive.is/Op3Q6)
 - tutorial for [concurrency](https://www.koderhq.com/tutorial/rust/concurrency/)
