@@ -58,6 +58,7 @@ SQLx was created to remove this manufactured layer. Using a tool like SQLx does,
 - cargo-expand
 - cargo-watch
 - watchexec: https://github.com/watchexec/watchexec#readme
+- cargo-generate: https://cargo-generate.github.io/cargo-generate/
 
 ## CLI Development
 
